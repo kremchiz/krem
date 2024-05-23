@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install net-tools,
+ifconfig
+sudo apt install php
+sudo apt install mysql-server
+systemctl status mysql
+sudo apt install php-mysql
+sudo apt install mc
+sudo apt install nano
+sudo su
+mysql
+create user student identified by password;
+grant all privileges on *.* to student;
+select user from mysql.user;
+mc
